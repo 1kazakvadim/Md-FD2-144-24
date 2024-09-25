@@ -128,3 +128,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+/.idea/Md-FD2-144-24.iml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
