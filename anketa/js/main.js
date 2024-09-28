@@ -10,9 +10,8 @@ var isMale = confirm("Ваш пол - мужской?");
 printForm(firstName, lastName, middleName, ageInYears, isMale);
 
 function getValidInput(message) {
-    var value = "";
-
     while (isBlank(value)) {
+        var value = "";
         value = prompt(message, value);
     }
 
@@ -30,7 +29,7 @@ function getValidAge(message) {
 }
 
 function isBlank(str) {
-    return !str || typeof str !== "string" || str.trim().length === 0;
+    return !str || typeof str !== "string" || str.trim().length === 0 || false;
 }
 
 function checkAge(age) {
